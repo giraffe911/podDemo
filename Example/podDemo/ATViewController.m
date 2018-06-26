@@ -7,6 +7,7 @@
 //
 
 #import "ATViewController.h"
+#import <podDemo/ATBaseManager.h>
 
 @interface ATViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [ATBaseManager printLog];
 }
 
 - (void)didReceiveMemoryWarning
