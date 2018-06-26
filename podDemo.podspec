@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'podDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of podDemo.'
+  s.summary          = 'A cocoapods lib test for new lib test for abc reading SDK pre.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+test cocoapods description for the abc formal version;
+test cocoapods description for the abc formal version;
 test cocoapods description for the abc formal version;
                        DESC
 
@@ -39,5 +41,5 @@ test cocoapods description for the abc formal version;
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'JSONModel'
-  s.dependency 'AFNetworking', '~> 2.3'
+  #s.dependency 'AFNetworking', '~> 2.3'
 end
