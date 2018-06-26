@@ -2,8 +2,8 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'podDemo_Example' do
-  pod 'podDemo', :path => '../'
-
+  #pod 'podDemo', :path => '../'
+  pod 'podDemo', :podspec => '../podDemo.podspec'
   target 'podDemo_Tests' do
     inherit! :search_paths
 

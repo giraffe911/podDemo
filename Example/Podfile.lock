@@ -4,16 +4,16 @@ PODS:
     - JSONModel
 
 DEPENDENCIES:
-  - podDemo (from `../`)
+  - podDemo (from `../podDemo.podspec`)
 
 EXTERNAL SOURCES:
   podDemo:
-    :path: ../
+    :podspec: ../podDemo.podspec
 
 SPEC CHECKSUMS:
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   podDemo: c387b683f924440c8ef8c482bdc00c338c5dc7d5
 
-PODFILE CHECKSUM: a7a69d00c9e6177661e5679afe5fa45e861e09f8
+PODFILE CHECKSUM: 5d965ea8d243fa9b1671810c49170c174b9c1b68
 
 COCOAPODS: 1.3.1
